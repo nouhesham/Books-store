@@ -1,0 +1,97 @@
+.bg {
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  animation: AnimateBG 20s ease infinite;
+  font-family: "Rubik", sans-serif;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+main {
+  margin-top: 70px;
+}
+#png {
+  width: 100%;
+  height: 300px;
+}
+.img {
+  width: 100%;
+  display: block;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.img_div {
+  width: 50%;
+  margin: auto;
+}
+.title {
+  margin: 5px;
+  text-align: center;
+}
+.row {
+  margin-top: 50px;
+}
+.des {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 180px; /* this could be defined on any parent */
+  text-align: center;
+}
+
+.authorstyle {
+  text-align: center;
+}
+.divtext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 1px;
+}
+.card {
+  padding: 10px;
+
+  background-color: rgb(234, 238, 242);
+  border-radius: 50px;
+  margin: 10px;
+}
+
+/* .form {
+} */
+
+.footer-1 {
+  background-color: rgb(169, 165, 230);
+}
+.d-block {
+  height: 80vh;
+}
